@@ -1,0 +1,44 @@
+.navBar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#index{display:inline-flex;}
+
+body {	margin-top: 3%;
+		background-color:#233237;
+		color: beige;
+		display: inline-flex;
+		flex-direction: column;
+		font-family: courier;
+}
+
+div {background-color:#45230f;
+		color: beige;
+		margin: 3px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #45230f;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #666;
+}
+
+li a {
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #111;
+}
