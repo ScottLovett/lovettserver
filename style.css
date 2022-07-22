@@ -1,22 +1,26 @@
 .navBar {
-	position: fixed;
-	top: 0;
-	width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#index{display:inline-flex;}
-
-body {	margin-top: 3%;
-		background-color:#233237;
-		color: beige;
-		display: inline-flex;
-		flex-direction: column;
-		font-family: courier;
+#index {
+  display: inline-flex;
 }
 
-div {background-color:#45230f;
-		color: beige;
-		margin: 3px;
+body {
+  margin-top: 3%;
+  background-color: #233237;
+  color: beige;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: courier;
+}
+
+div {
+  background-color: #45230f;
+  color: beige;
+  margin: 3px;
 }
 
 ul {
